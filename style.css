@@ -1,0 +1,97 @@
+ body
+{
+  margin: 0;
+  padding :0;
+  font-family: 'poppins' , sans-serif;
+   box-sizing: border-box;
+    
+}
+.container{
+  width:100vm;
+  height: 100vh;
+  background-image: url( coming\ soon.jpg);
+background-position: center;
+background-size: cover;
+padding:   2%;
+}
+.logo{
+  width: 120px; 
+  padding: 20px 0;
+  cursor: pointer;
+}
+.content{
+  top: 50%;
+  position: absolute;
+  transform: translateY(-50%);
+  color: white;
+}
+span{
+  color: red;
+}
+.content button{
+  background: transparent;
+  border: 2px solid  white;
+  outline: none;
+ color: white;  
+ padding: 12px 25px;
+ display: flex;
+ align-items: center;
+ margin-top: 30px;
+ cursor: pointer;
+
+}
+.content button img{
+  width:15px;
+  margin-left: 10px;
+}
+.launch{
+  display: flex;
+}
+.launch div{
+  flex-basis: 100px;
+ 
+} 
+.rocket{
+  width:  50px;
+  position: absolute;
+  left: 100%;
+  bottom: 0;
+  animation: rocket 7s  infinite;
+}
+@keyframes rocket{
+  0%{
+    bottom: 0;
+    opacity: 0;
+  }
+  100%{
+    bottom: 105%;
+    opacity: 1;
+  }
+
+}
+#navbar{
+  width:100vm;
+  height:  100vh;
+  background-image: url( coming\ soon.jpg );
+  background-position: center;
+  background-size: cover;
+  padding:   2%;
+  
+ 
+}
+ a{
+  color:  white;
+  
+  
+}
+button{
+  background: transparent;
+  border: 2px solid  white;
+  outline: none;
+ color: white;  
+ padding: 12px 25px;
+ display: flex;
+ align-items: center;
+ margin-top: 30px;
+ cursor: pointer;
+}
