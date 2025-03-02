@@ -30,13 +30,22 @@
         <div>
           <p id="seconds">00</p>
           <span>Seconds</span>
+          
         </div>
-        <img src="rocket.jpg" class="rocket">
+        <img src="rocket.jpg" class="rocket"><h3 id="h"></h3>
       </div>
       <button type="button" >  <a href="my.html">Learn more</a> </button>
     </div>
   </div>
+ <script type="module">
+    import dayjs from 'https://unpkg.com/dayjs@1.11.10/esm/index.js';
 
+    const today = dayjs();
+    console.log(today.format('dddd')); // Logs the day of the week
+    document.querySelector('#h').innerHTML = today.format('dddd'); // Show formatted day name
+
+    window.today = today; // Make the object accessible globally (if needed)
+  </script>
   <script src="script.js"></script>
 </body>
 </html>
