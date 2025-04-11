@@ -1,121 +1,56 @@
-  body
-{
+body{
   margin: 0;
-  padding :0;
-  font-family: 'poppins' , sans-serif;
-   box-sizing: border-box;
-    
-}
-.container{
-  width:100vm;
-  height: 100vh;
+  padding: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
   background-image: url( coming\ soon.jpg);
-background-position: center;
-background-size: cover;
-padding:   2%;
+ 
+  
 }
-.logo{
-  width: 120px; 
-  padding: 20px 0;
-  cursor: pointer;
-}
-.content{
-  top: 50%;
-  position: absolute;
-  transform: translateY(-50%);
-  color: white;
-}
-span{
-  color: red;
-}
-.content button{
-  background: transparent;
-  border: 2px solid  white;
-  outline: none;
- color: white;  
- padding: 12px 25px;
- display: flex;
- align-items: center;
- margin-top: 30px;
- cursor: pointer;
-
-}
-.content button img{
-  width:15px;
-  margin-left: 10px;
-}
-.launch{
+.hero{
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(45deg,#010758,#490d61);
   display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
-.launch div{
-  flex-basis: 100px;
- 
-} 
-.rocket{
-  width:  50px;
-  position: absolute;
-  left: 100%;
-  bottom: 0;
-  animation: rocket 7s  infinite;
-}
-@keyframes rocket{
-  0%{
-     bottom: 0;
-    opacity: 0;
-  }
-  
-  100%{
-     bottom:  100%;
-    opacity: 2.9;
-  }
-
-}
-#navbar{
-  width:100vm;
-  height:  100vh;
-  background-image: url( coming\ soon.jpg );
-  background-position: center;
-  background-size: cover;
-  padding:   2%;
-  
- 
-}
- a{
-  color:  white;
-  
-  
+textarea{
+  background: transparent;
+  border: solid rgb(140, 132, 132);
+  color: wheat;
+  border-radius: 5px;
+  width:250px;
+  height: 250px;
+  resize: none;
 }
 button{
   background: transparent;
-  border: 2px solid  white;
-  outline: none;
- color: white;  
- padding: 12px 25px;
- display: flex;
- align-items: center;
- margin-top: 30px;
- cursor: pointer;
+  border-radius: 35px;
+ 
+  border: solid rgb(140, 132, 132);
+  color: wheat;  border-radius: 5px;
 }
-#h{
-  width:  50px;
-  position: absolute;
-  left: 100%;
-  bottom: 0;
-  animation: h 7s  infinite;
+.row{
+  width: 100px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
-@keyframes  h{
-   
-  25%{
-    bottom: 25%;
-    opacity:0.5 ;
-  }50%{
-    bottom: 50%;
-    opacity:0 .7;
-  } 
+select{
+ color: #fff;
+ background: #403d84;
+ height: 50px;
+ padding: 0 20px;
+ border-radius: 35px;
+ 
+ flex:1;
+}
+span{
+  color:white;
+}a{
+  color:  white;
   
-
-  75%{
-    bottom:75% ;
-    opacity:  0.9;
-  }
+  
 }
