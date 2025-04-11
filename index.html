@@ -3,50 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Coming Soon Page</title>
-  <link rel="stylesheet"href="style.css" type="text/css">
+  <title>Text to voice</title>
+  <link rel="stylesheet"href="style.css">
 </head>
 <body>
-  <div class="container">
-    <h1 ><span>SHRAMA</span>JEEVI</h1> 
-    <div class="content">
-      <p>
-        Website is under maintenance
-      </p>
-      <h1>We're <span>launching</span> soon</h1>
-      <div class="launch">
-        <div>
-          <p id="days">00</p>
-          <span>Days</span>
-        </div>
-        <div>
-          <p id="hours">00</p>
-          <span>Hours</span>
-        </div>
-        <div>
-          <p id="minutes">00</p>
-          <span> Minutes</span>
-        </div>
-        <div>
-          <p id="seconds">00</p>
-          <span>Seconds</span>
-          
-         
-        </div> 
-        <img src="rocket.jpg" class="rocket"></img> <h3 id="h"></h3>
-      </div> 
-      <button type="button" >  <a href="my.html">Learn more</a> </button>
-    </div>
+  <div class="hero">
+  <b><h1 style="color: brown;">Text to speech <span style="color:blueviolet">converter</span></h1></b>
+  <textarea placeholder="Write anything here..."></textarea><br>
+ 
+    
+    <button>Listen</button>
+   <br>
+  <button type="button" >  <a href="my.html">Learn more</a> </button>
   </div>
-  <script type="module">
-    import dayjs from 'https://unpkg.com/dayjs@1.11.10/esm/index.js';
-
-    const today = dayjs();
-    console.log(today.format('dddd')); // Logs the day of the week
-    document.querySelector('#h').innerHTML = today.format('dddd'); // Show formatted day name
-
-    window.today = today; // Make the object accessible globally (if needed)
-  </script>
   <script src="script.js"></script>
 </body>
 </html>
